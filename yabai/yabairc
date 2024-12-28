@@ -11,7 +11,7 @@ yabai -m config left_padding 5
 yabai -m config right_padding 5 
 yabai -m config window_gap 5 
 yabai -m config top_padding 5 
-yabai -m config external_bar all:40:0
+yabai -m config external_bar all:45:0
 # -- mouse settings --
 
 # center mouse on window with focus
