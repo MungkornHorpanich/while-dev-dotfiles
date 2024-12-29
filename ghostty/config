@@ -1,0 +1,14 @@
+theme = rose-pine
+background = 000000
+
+font-size = 24 
+font-family = "MesloLGS Nerd Font Mono"
+
+background-opacity = 0.8
+
+macos-titlebar-style = "hidden"
+
+window-decoration = false
+window-padding-color = background
+window-padding-x = 12
+window-padding-y = 12 
