@@ -1,2 +1,2 @@
-require("while.core.keymaps")
 require("while.core.options")
+require("while.core.keymaps")
