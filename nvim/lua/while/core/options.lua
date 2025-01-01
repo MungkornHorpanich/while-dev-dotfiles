@@ -1,11 +1,15 @@
 vim.cmd("let g:netrw_liststyle = 3")
 
-local opt = vim.opt opt.relativenumber = true
+local opt = vim.opt
+
+opt.relativenumber = true
+opt.nu = true
 opt.number = true
+opt.guicursor = "n-v-i-c:block-Cursor"
 
 -- tabs & indentation
-opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
-opt.shiftwidth = 2 -- 2 spaces for indent width
+opt.tabstop = 4 
+opt.shiftwidth = 4
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
@@ -29,9 +33,13 @@ opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or 
 -- clipboard
 opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 
+
 -- split windows
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
-opt.swapfile = false
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undofile = true
