@@ -1,2 +1,3 @@
 require("while.core")
-vim.cmd("colorscheme retrobox")
+require("while.lazy")
+
