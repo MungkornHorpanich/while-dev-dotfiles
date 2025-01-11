@@ -4,7 +4,7 @@ background = 000000
 font-size = 26 
 font-family = "MesloLGS Nerd Font Mono"
 
-background-opacity = 0.8
+background-opacity = 0.85 
 
 macos-titlebar-style = "hidden"
 
