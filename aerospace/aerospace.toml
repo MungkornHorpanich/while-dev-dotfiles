@@ -1,7 +1,6 @@
 # Place a copy of this config to ~/.aerospace.toml
 # After that, you can edit ~/.aerospace.toml to your liking
 
-after-startup-command = ['exec-and-forget sketchybar']
 
 # Notify Sketchybar about workspace change
 exec-on-workspace-change = ['/bin/bash', '-c',
@@ -63,7 +62,7 @@ inner.horizontal = 5
 inner.vertical =   5
 outer.left =       5
 outer.bottom =     30
-outer.top =        5
+outer.top =        45
 outer.right =      5
 
 # 'main' binding mode declaration
