@@ -1,7 +1,4 @@
-function ColorMyPencils(color)
-	color = color or "rose-pine-main"
-	vim.cmd.colorscheme(color)
-
+function ColorMyPencils()
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
@@ -84,5 +81,17 @@ return {
 			vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 			vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
 		end,
+	},
+
+	{
+		"projekt0n/github-nvim-theme",
+		name = "github-theme",
+		lazy = false, -- make sure we load this during startup if it is your main colorscheme
+		priority = 1000, -- make sure to load this before all the other start plugins
+	},
+
+	{
+		"rebelot/kanagawa.nvim",
+		priority = 1000,
 	},
 }
