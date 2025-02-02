@@ -1,7 +1,7 @@
-theme = Github-Dark-Default 
 background = 000000
+theme = Firewatch
 
-font-size = 27
+font-size = 28
 font-family = Hack Nerd Font Mono
 
 
