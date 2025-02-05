@@ -1,0 +1,4 @@
+- ghostty
+- neovim
+- aerospace
+- sketchybar
