@@ -8,3 +8,5 @@ macos-titlebar-style = "hidden"
 background-opacity = 0.85
 
 window-colorspace = display-p3
+
+auto-update-channel = tip
