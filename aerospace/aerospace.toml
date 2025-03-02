@@ -3,7 +3,7 @@
 
 
 # Notify Sketchybar about workspace change
-# xd
+# xd test for github contibution
 exec-on-workspace-change = ['/bin/bash', '-c',
     'bottom_bar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE'
 ]
