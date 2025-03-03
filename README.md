@@ -2,3 +2,4 @@
 - neovim
 - aerospace
 - sketchybar
+- raycast
