@@ -1,12 +1,9 @@
-background = 000000
-theme = tokyonight
+theme = tokyonight 
 
 font-size = 28
 font-family = Hack Nerd Font Mono
 
 macos-titlebar-style = "hidden"
-
-background-opacity = 0.85
 
 window-colorspace = display-p3
 
