@@ -4,3 +4,4 @@
 -- hahaj`
 -- asdasajk
 -- asdasd
+-- day 8 now nig
