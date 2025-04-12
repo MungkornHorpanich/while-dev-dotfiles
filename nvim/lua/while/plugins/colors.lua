@@ -1,7 +1,8 @@
 return {
-    "rebelot/kanagawa.nvim" 
+    "marko-cerovac/material.nvim",
     priority = 1000,
     config = function()
-        vim.cmd("colorscheme kanagawa")
+        vim.g.material_style = "darker"
+        vim.cmd("colorscheme material")
     end
 }
