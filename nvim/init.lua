@@ -1,15 +1,1 @@
--- haha sorrty buy I have no time
--- xd`
---
--- hahaj`
--- asdasajk
--- asdasd
--- day 8 now nig
--- day 9 omg tu score
---
--- asdasdjk
---
--- nigga niggajk1
--- asdasda
---
--- aasdas
+require("while.core.options")
