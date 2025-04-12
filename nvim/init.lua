@@ -8,3 +8,6 @@
 -- day 9 omg tu score
 --
 -- asdasdjk
+--
+-- nigga niggajk1
+-- asdasda
