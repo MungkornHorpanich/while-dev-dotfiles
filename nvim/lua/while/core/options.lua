@@ -5,13 +5,13 @@ local opt = vim.opt
 opt.relativenumber = true
 opt.number = true
 
+opt.guicursor = "n-v-i-c:block-Cursor"
+
 -- tabs & indentation
 opt.tabstop = 3 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 3 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
-    
-     
 
 opt.wrap = false
 
@@ -19,7 +19,7 @@ opt.wrap = false
 opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you include mixed case in your search, assumes you want case-sensitive
 
-opt.cursorline = true
+opt.cursorline = false
 
 -- turn on termguicolors for tokyonight colorscheme to work
 -- (have to use iterm2 or any other true color terminal)
