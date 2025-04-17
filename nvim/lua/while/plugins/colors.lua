@@ -8,34 +8,34 @@
 -- so this is the best way to config neovim for beginner
 
 return {
-   {
-      "folke/tokyonight.nvim",
-   },
-   {
-      "rose-pine/neovim",
-      name = "rose-pine",
-      config = function()
-         require("rose-pine").setup({
-            disable_background = true,
-         })
+    {
+        "folke/tokyonight.nvim",
+    },
+    {
+        "rose-pine/neovim",
+        name = "rose-pine",
+        config = function()
+            require("rose-pine").setup({
+                disable_background = true,
+            })
 
-         -- vim.cmd("colorscheme rose-pine")
+            -- vim.cmd("colorscheme rose-pine")
 
-         -- ColorMyPencils()
-      end,
-   },
-   {
-      "EdenEast/nightfox.nvim",
-      priority = 1000,
-      config = function()
-         require("nightfox").setup({
-            options = {
-               transparent = true, -- Disable setting background
-               terminal_colors = true, -- Set terminal colors (vim.g.terminal_color_*) used in `:terminal`
-            },
-         })
+            -- ColorMyPencils()
+        end,
+    },
+    {
+        "EdenEast/nightfox.nvim",
+        priority = 1000,
+        config = function()
+            require("nightfox").setup({
+                options = {
+                    transparent = true, -- Disable setting background
+                    terminal_colors = true, -- Set terminal colors (vim.g.terminal_color_*) used in `:terminal`
+                },
+            })
 
-         vim.cmd("colorscheme nightfox")
-      end,
-   },
+            vim.cmd("colorscheme nightfox")
+        end,
+    },
 }

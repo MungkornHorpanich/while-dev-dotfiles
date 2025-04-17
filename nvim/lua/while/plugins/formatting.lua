@@ -21,6 +21,14 @@ return {
             lua = { "stylua" },
             python = { "isort", "black" },
          },
+
+         -- Add this to override Prettier's default tab width
+         formatters = {
+            prettier = {
+               prepend_args = { "--tab-width", "3" },
+            },
+         },
+
          format_on_save = {
             lsp_fallback = true,
             async = false,
