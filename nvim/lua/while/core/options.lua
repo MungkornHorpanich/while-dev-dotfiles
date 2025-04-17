@@ -8,8 +8,8 @@ opt.number = true
 opt.guicursor = "n-v-i-c:block-Cursor"
 
 -- tabs & indentation
-opt.tabstop = 3 -- 2 spaces for tabs (prettier default)
-opt.shiftwidth = 3 -- 2 spaces for indent width
+opt.tabstop = 3 -- 3 spaces for tabs (prettier default)
+opt.shiftwidth = 3 -- 3 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
