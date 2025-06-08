@@ -1,9 +1,9 @@
 -- Making transparent
--- function ColorMyPencils(color)
---    color = color or "retrobox"
---    vim.cmd.colorscheme(color)
---    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
--- end
+function ColorMyPencils(color)
+   color = color or "retrobox"
+   vim.cmd.colorscheme(color)
+   vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+end
 --
 -- so this is the best way to config neovim for beginner
 return {
@@ -18,9 +18,9 @@ return {
             disable_background = true,
          })
 
-         -- vim.cmd("colorscheme rose-pine")
+         vim.cmd("colorscheme rose-pine")
 
-         -- ColorMyPencils()
+         ColorMyPencils()
       end,
    },
    {
@@ -34,7 +34,7 @@ return {
             },
          })
 
-         vim.cmd("colorscheme nightfox")
+         -- vim.cmd("colorscheme nightfox")
       end,
    },
 }
