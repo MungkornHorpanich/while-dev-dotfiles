@@ -1,13 +1,28 @@
--- Making transparent
 function ColorMyPencils(color)
+   color = color or "rose-pine"
    vim.cmd.colorscheme(color)
+
    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 end
---
--- so this is the best way to config neovim for beginner
+
 return {
    {
       "folke/tokyonight.nvim",
+      config = function()
+         require("tokyonight").setup({
+            transparent = true, -- Enable this to disable setting the background color
+            terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
+            styles = {
+               comments = { italic = false },
+               keywords = { italic = false },
+               sidebars = "dark", -- style for sidebars, see below
+               floats = "dark", -- style for floating windows
+            },
+         })
+         -- ColorMyPencils()
+
+         -- vim.cmd("colorscheme tokyonight")
+      end,
    },
    {
       "rose-pine/neovim",
