@@ -1,5 +1,7 @@
-background = 000000
 theme = 0x96f 
+background = 000000
+background-opacity = 0.9 
+background-blur = 20  
 
 font-size = 28
 font-family = Hack Nerd Font Mono
